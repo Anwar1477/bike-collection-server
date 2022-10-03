@@ -191,5 +191,5 @@ async function run () {
 }
 run().catch(console.dir)
 
-app.get('/', (req, res) => res.send('Bikers Hub'))
-app.listen(port, () => console.log(`Bikers Hub app listening on port ${port}!`))
+app.get('/', (req, res) => res.send('Bike-Collections'))
+app.listen(port, () => console.log(`Bike Collections Hub app listening on port ${port}!`))
